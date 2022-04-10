@@ -1,0 +1,13 @@
+<html>
+    <head><title> SSDS App </title></head>
+    <body>
+        <h1> Vous êtes sur la page d'acceuil</h1>
+        <p> Le but de l'app est de donner de la motivation aux personnes souhaitant arrêter de fumer et se remettre au sport</p>
+        <p> Exemple de liste de groupes : 
+            {% for band in bands %}
+            {{ band.name }},
+            {% endfor %}
+        </p>
+    </body>
+
+</html>
